@@ -1,0 +1,6 @@
+# Remove OS X files.
+.DS_Store
+
+# Remove linux temporary files.
+*~
+
