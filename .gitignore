@@ -1,6 +1,44 @@
 # Remove OS X files.
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# OS X Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
 # Remove linux temporary files.
 *~
+
+# SublimeText project files
+*.sublime-workspace
+
+# Ruby Code
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
 
