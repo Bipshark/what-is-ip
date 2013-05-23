@@ -2,5 +2,5 @@ require "sinatra"
 require "mustache"
 
 get '/' do
-    "Hello world!"
+    "Your IP: " + request.env["REMOTE_ADDR"]
 end
