@@ -1,8 +1,21 @@
-<html>
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
 <head>
+    <meta charset="utf-8">
     <title>{{title}}</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    {{{yield}}}
+    <div id="wrapper">
+        <div id="header">
+            <a href="./"><img src="img/header.png" alt="{{title}}"></a>
+        </div>
+        <div id="content">
+            {{{yield}}}
+        </div>
+        <div id="footer">
+            {{year}} © Martin Lind (tesuki) and Niklas Tegnander (bipshark)
+        </div>
+    </div>
 </body>
 </html>

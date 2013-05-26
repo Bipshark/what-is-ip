@@ -1,0 +1,35 @@
+body {
+    background: #f2f2f2 url(img/cream_pixels.png) repeat top left;
+    font: 14px/1.5em 'Lucida Grande', 'Arial', sans-serif;
+    color: #666;
+    padding-top: 80px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 640px;
+}
+
+#header {
+    text-align: center;
+}
+
+#content {
+    background: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.ip {
+    color: #333;
+    font-weight: bold;
+}
+
+#footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: #999;
+    padding: 10px;
+}
