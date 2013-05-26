@@ -28,3 +28,4 @@ end
 get '/' do
     mustache :index
 end
+
